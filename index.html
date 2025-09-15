@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <script src="https://kit.fontawesome.com/b95a02b008.js" crossorigin="anonymous"></script>
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <nav class="menu-navegacao">
+            <h1>João Vítor</h1>
+            <ul>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#contato-formulario">Contato</a></li>
+            </ul>
+            <ul id="mobile-menu">
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#contato-formulario">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="greetings">
+            <img class="foto-perfil" src="imagens/perfil/WhatsApp Image 2025-07-08 at 16.00.48.jpeg" alt="">
+            <h2>Olá, sou João Vítor Matos dos Santos.</h2>
+            <p>Desenvolvedor Front-end</p>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="grade-projetos">
+                <article class="projeto">
+                    <img class="projetos-imagens" src="imagens/projetos/landingpage.png" alt="Landingpage-image">
+                    <h3>Plataformas de cursos online</h3>
+                    <p>O projeto é um website educacional bem estruturado e responsivo, projetado para oferecer uma experiência de usuário agradável e funcional em diversas plataformas.</p>
+                    <div>
+                        <a href="https://0gemeojv.github.io/LandpageCursos/">link do projeto</a>
+                    </div>
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i></li>
+                        <li><i class="fa-brands fa-css3-alt"></i></li>
+                        <li><i class="fa-brands fa-js"></i></li>
+                    </ul>
+                </article>
+                <article class="projeto">
+                    <img class="projetos-imagens" src="imagens/projetos/ToDoList_resized.png" alt="">
+                    <h3>Lista de tarefas</h3>
+                    <p>Este projeto é um aplicativo web simples de "Lista de Tarefas" (To-Do List). Ele permite que os usuários adicionem novas tarefas, marquem-nas como concluídas e as excluam.</p>
+                    <div>
+                        <a href="https://0gemeojv.github.io/ToDolist/">link do projeto</a>
+                    </div>
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i></li>
+                        <li><i class="fa-brands fa-css3-alt"></i></li>
+                        <li><i class="fa-brands fa-js"></i></li>
+                    </ul>
+                </article>
+                <article class="projeto">
+                    <img class="projetos-imagens" src="imagens/projetos/Cadastro.png" alt="">
+                    <h3>Página de cadastro</h3>
+                    <p>Este projeto é uma página web simples de "Login e Cadastro" que permite aos usuários alternar entre formulários de login e de criação de conta.</p>
+                    <div>
+                        <a href="https://0gemeojv.github.io/Cadastro/">link do projeto</a>
+                    </div>
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i></li>
+                        <li><i class="fa-brands fa-css3-alt"></i></li>
+                        <li><i class="fa-brands fa-js"></i></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <section id="sobre" class="secao-sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou bacharel em Ciência da Computação e desenvolvedor Front-end. Com experiência nas ferramentas HTML, CSS e Java Script, crio interfaces responsivas e funcionais, sempre priorizando a melhor experiência para o usuário.</p>
+        </section>
+        <section id="contato-formulario">
+            <h2>Entre em contato</h2>
+            <form action="https://formsubmit.co/be148703ae92aaabb21a7e8a2eb9d3ff" method="POST" class="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div id="contato" class="contatos">
+            <ul class="contatos-lista">
+                <li class="contatos-icones"><a class="icones" href="#icones"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="contatos-icones"><a class="icones" href="https://www.instagram.com/j.v_matos/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="contatos-icones"><a class="icones" href="https://github.com/0gemeoJV"><i class="fa-brands fa-github"></i></a></li>
+
+            </ul>   
+        </div>
+        <p class="rodape">&copy;2024 JV desenvolvedor web. Todos os direitos autorais reservados.</p>
+    </footer>
+</body>
+</html>

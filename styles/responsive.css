@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+    .menu-navegacao{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .menu-navegacao ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .menu-navegacao h1 {
+        font-size: 2.2rem;
+    }
+
+    .greetings {
+        padding: 50px 15px;
+    }
+
+    .greetings h2 {
+        font-size: 2.2rem;
+    }
+
+    .greetings p {
+        font-size: 1.3rem;
+    }
+
+    .foto-perfil {
+        width: 200px;
+        height: 200px;
+        border-width: 3px; 
+    }
+
+    h2 {
+        margin: 40px 0 30px 0;
+        font-size: 2rem;
+    }
+
+    .grade-projetos {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+    }
+
+    .projeto {
+        margin-bottom: 25px; 
+    }
+
+    .projeto h3 {
+        font-size: 1.5rem;
+    }
+
+    .projeto ul li i {
+        font-size: 30px;
+    }
+
+    .secao-sobre {
+        padding: 50px 15px;
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+
+    .contatos-icones {
+        padding: 0 10px;
+    }
+
+    .contatos-icones a i {
+        font-size: 2.2rem;
+    }
+
+    #contato-formulario {
+        padding: 50px 15px;
+    }
+
+    .formulario input,
+    .formulario textarea {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-navegacao {
+        padding: 0 10px;
+    }
+
+    .greetings h2 {
+        font-size: 1.8rem;
+    }
+
+    .greetings p {
+        font-size: 1.1rem;
+    }
+
+    .foto-perfil {
+        width: 150px;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin: 30px 0 20px 0;
+    }
+
+    .projeto h3 {
+        font-size: 1.3rem;
+    }
+
+    .projeto p {
+        font-size: 0.9rem;
+    }
+
+    .projeto ul li i {
+        font-size: 25px;
+    }
+
+    .contatos-icones a i {
+        font-size: 1.8rem;
+    }
+
+    .rodape {
+        font-size: 0.8rem;
+    }
+
+    #contato-formulario {
+        padding: 30px 10px;
+    }
+
+    .formulario label,
+    .formulario input,
+    .formulario textarea,
+    .formulario button {
+        font-size: 0.9rem;
+    }
+}

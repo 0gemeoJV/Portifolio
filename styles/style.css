@@ -1,0 +1,248 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1A1A1A;
+    color: #E0E0E0;
+}
+
+header{
+    background-color: #282828;
+    color: #E0E0E0;
+    padding: 1rem 0;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #569CD6;
+}
+
+.menu-navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.menu-navegacao h1 {
+    font-size: 1.8rem;
+    color: #569CD6; 
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+#mobile-menu{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: #E0E0E0; 
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #569CD6;
+}
+
+section{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h2{
+    margin: 60px 0 40px 0; 
+    color: #DCDCAA; 
+    font-size: 2.5rem; 
+}
+
+.greetings{
+    
+    padding: 50px;
+    background-color: #282828;
+}
+
+.greetings p {
+    font-size: 1.6rem; 
+    color: #A0A0A0; 
+    margin-bottom: 0;
+}
+
+.foto-perfil{
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 30px;
+
+}
+
+.grade-projetos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px; 
+    margin: 30px;
+    padding: 0 20px; 
+    
+}
+
+.projetos-imagens{
+    max-width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.projeto{
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    display: flex; 
+    flex-direction: column;
+}
+
+.projeto h3{
+    color: #569CD6;
+    margin-top: 15px;
+    font-size: 1.7rem;
+}
+
+.projeto p {
+    color: #A0A0A0; 
+    padding: 15px 15px; 
+    flex-grow: 1;
+    text-align: left;
+}
+
+.projeto div a {
+    display: inline-block; 
+    background-color: #569CD6; 
+    color: #1A1A1A; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.projeto div a:hover {
+    background-color: #407BA7;
+}
+
+.projeto:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px black; 
+}
+
+i{
+    font-size: 30px;;
+}
+
+.secao-sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px; 
+    line-height: 1.8; 
+}
+
+.secao-sobre p {
+    text-align: left; 
+    margin-bottom: 1.5rem; 
+    font-size: 1.1rem;
+    color: #E0E0E0;
+}
+
+footer{
+    margin-top: 90px;
+    text-align: center;
+    background-color: #282828;
+    padding: 20px 0;
+}
+
+.contatos-lista {
+    margin-bottom: 25px;
+}
+
+.contatos-icones i{
+    color: #A0A0A0; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contatos-icones i:hover {
+    color: #569CD6; 
+    transform: translateY(-5px); 
+}
+
+#contato-formulario {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.formulario {
+    padding: 60px 20px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #282828;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.formulario label {
+    font-weight: bold;
+    color: #E0E0E0;
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 12px;
+    border: 1px solid #569CD6;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    color: #E0E0E0;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: #DCDCAA;
+}
+
+.formulario button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #569CD6;
+    color: #1A1A1A;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.formulario button:hover {
+    background-color: #407BA7;
+}
+
+main section:last-of-type {
+    margin-bottom: 90px;
+}
