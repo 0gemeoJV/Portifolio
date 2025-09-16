@@ -35,13 +35,20 @@ header{
     color: #569CD6; 
 }
 
+
 li{
     display: inline-block;
     padding: 20px;
 }
 
-#mobile-menu{
+.menu-button{
     display: none;
+    transition: 0.2s;
+}
+
+.menu-button.active{
+    transform: rotate(180deg);
+    transition: 0.2s;
 }
 
 a{
