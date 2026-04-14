@@ -12,7 +12,11 @@ body {
 }
 
 header{
-    background-color: #282828;
+    background-color: rgba(40, 40, 40, 0.8); 
+    
+    /* O efeito de borrão (ajuste o 10px conforme preferir) */
+    -webkit-backdrop-filter: blur(10px); /* Suporte para Safari */
+    backdrop-filter: blur(10px);
     color: #E0E0E0;
     padding: 1rem 0;
     position: sticky; 
