@@ -1,10 +1,21 @@
 @media (max-width: 768px) {
-    .menu-navegacao{
-        display: flex;
-        flex-direction: column;        
+
+    header.scrolled .menu-navegacao h1 {
+        position: absolute;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        transform: translateY(-20px) scale(0.9);
     }
 
-    .menu-navegacao ul{
+    .menu-navegacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-navegacao ul {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -15,20 +26,20 @@
         font-size: 2.2rem;
     }
 
-    .menu-button{
+    .menu-button {
         display: inline;
     }
 
-    .list-menu{
+    .list-menu {
         flex-direction: column;
         margin-top: 15px;
-        max-height: 0; /* Começa com altura zero*/
-        overflow: hidden; /* Esconde o conteúdo que transborda */
-        transition: max-height 0.4s ease-in-out; /*Adiciona a transição */
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
         width: 100%;
     }
 
-    .list-menu.active{
+    .list-menu.active {
         max-height: 200px;
     }
 
@@ -47,7 +58,7 @@
     .foto-perfil {
         width: 200px;
         height: 200px;
-        border-width: 3px; 
+        border-width: 3px;
     }
 
     h2 {
@@ -61,7 +72,7 @@
     }
 
     .projeto {
-        margin-bottom: 25px; 
+        margin-bottom: 25px;
     }
 
     .projeto h3 {
@@ -97,9 +108,16 @@
     .formulario textarea {
         font-size: 0.9rem;
     }
+
+    .menu-navegacao h1 {
+        font-size: 2.2rem;
+        transition: all 0.3s ease-in-out;
+    }
+
 }
 
 @media (max-width: 480px) {
+    
     .menu-navegacao {
         padding: 0 10px;
     }
